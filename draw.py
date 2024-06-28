@@ -16,7 +16,7 @@ def openfile(filepath):
     return y
 
 if __name__ == '__main__':
-    mpl.use('TkAgg')
+    mpl.use('Agg')
     plt.figure()
     epsilon_array = ['1.0', '5.0', '10.0', '20.0', '30.0']
     plt.ylabel('Testing Accuracy')
